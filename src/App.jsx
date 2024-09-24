@@ -1,15 +1,13 @@
- 
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import Home from "./pages/shopping-view/Home";
 
 function App() {
- 
-
-
-  return <>{
-    
-
-    navigator.getBattery()
-  }</>;
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
+  );
 }
 
 export default App;
