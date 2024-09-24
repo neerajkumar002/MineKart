@@ -1,5 +1,5 @@
-const Header = () => {
-  return <div>Shopping view header</div>;
+const ShoppingHeader = () => {
+  return <div>shopping header</div>;
 };
 
-export default Header;
+export default ShoppingHeader;
