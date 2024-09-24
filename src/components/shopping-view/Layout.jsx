@@ -1,9 +1,7 @@
 import { Outlet } from "react-router-dom";
 import ShoppingHeader from "./Header";
 
-
-
-const ShoppingLayout = () => {
+  const ShoppingLayout = () => {
   return (
     <div className="flex">
       <ShoppingHeader />
