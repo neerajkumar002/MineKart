@@ -1,0 +1,30 @@
+/*+++ Flex classes +++*/
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+/*+++ Grid classes +++*/
+
+.grid {
+  display: grid;
+}
+
+/*+++ gaps classes +++*/
+.gap-0 {
+  gap: 0px;
+}

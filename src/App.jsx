@@ -1,7 +1,15 @@
+ 
 import "./App.css";
 
 function App() {
-  return <>hello</>;
+ 
+
+
+  return <>{
+    
+
+    navigator.getBattery()
+  }</>;
 }
 
 export default App;
