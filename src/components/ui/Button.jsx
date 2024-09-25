@@ -1,5 +1,7 @@
+import "../../styles/button.css";
+
 const Button = ({ label }) => {
-  return <button>{label}</button>;
+  return <button className="addToCartBtn">{label}</button>;
 };
 
 export default Button;
