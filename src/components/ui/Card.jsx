@@ -1,16 +1,17 @@
 import Button from "./Button";
+import "../../styles/card.css";
+import "../../styles/utilis.css";
 
-const Card = ({ img, title, description, price }) => {
+const Card = ({ img, title,  price }) => {
   return (
-    <div>
-      <div>
-        <img src={img} alt={title} width={300} />
+    <div className="product-card flex flex-col items-center gap-1">
+      <div className="product-image">
+        <img src={img} alt={title} />
       </div>
-      <p>{title}</p>
-      <p>{description}</p>
-      <p>{price}</p>
-      <div>
-        <Button label="Add To Cart" />
+      <p>{title}</p> 
+      <p className="product-price">${price}</p>
+      <div className="btn-container">
+        <Button label="Add To Cart"  />
       </div>
     </div>
   );
