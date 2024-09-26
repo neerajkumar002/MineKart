@@ -24,7 +24,16 @@
   display: grid;
 }
 
+.grid
+
 /*+++ gaps classes +++*/
 .gap-0 {
   gap: 0px;
+}
+.gap-1 {
+  gap: 10px;
+}
+
+.gap-2 {
+  gap: 20px;
 }
