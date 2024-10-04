@@ -1,0 +1,28 @@
+.navbar {
+  background-color: #FFFFFF;
+  height: 70px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+   align-items: center;
+   padding: 0px 30px;
+}
+
+.logo {
+  color: var(--text-orange);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.left-content{
+    display: flex;
+    gap: 20px;
+}
+.user-btn { 
+  background-color: #f3f5f9;
+  color: #65676a;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
