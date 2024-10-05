@@ -5,12 +5,17 @@
 }
 
 :root {
-  --main-color: #1a1a27;
+  --main-color: #f6f9fc;
+  --primary-color: #ffede1;
   --light-main-color: #2c2c40;
   --text-white: #fff;
+  --text-black: #2b3445;
+  --text-orange: #f47458;
+  --light-orange-color: #ffceae;
+  --light-cream-color: #fff6f4;
 }
 
 body {
   background-color: var(--main-color);
-  color: var(--text-white);
+  color: var(--text-black);
 }

@@ -1,9 +1,0 @@
-.products-container {
-    gap: 1.1rem;
-}
-
-@media (min-width: 1024px) {
-  .products-container {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-}

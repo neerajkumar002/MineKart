@@ -1,0 +1,10 @@
+.navbar {
+  height: 100px;
+  border: 1px solid red;
+}
+
+.navbar .logo {
+  color: var(--text-orange);
+font-size: 1.5rem;
+
+}
