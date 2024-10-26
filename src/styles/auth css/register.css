@@ -1,0 +1,43 @@
+.register-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.register-form p{
+    text-align: center;
+}
+.register-form h2{
+    text-align: center;
+}
+
+
+.controls-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.register-in-btn{
+    width: 100%;
+    border: none;
+    padding: 10px ;
+    background-color: var(--text-carrot);
+    border-radius: 5px;
+    font-weight: 700;
+    color: var(--text-white);
+}
